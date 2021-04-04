@@ -12,9 +12,9 @@ from FacebookChatPhisher import loginToFacebook
 class Test(TestCase):
     def test_post(self, pathToTor = secret.linuxPath, email = secret.EMAIL, passw = secret.passw):
         driver = loginToFacebook(pathToTor, email, passw)
-        friendUsername="abdullah.arif115"
+        friendURL="https://www.facebook.com/abdullah.arif115"
         message="The best things in life take patience"
-        post(driver, friendUsername, message)
+        post(driver, friendURL, message)
 
 
 if __name__ == '__main__':
