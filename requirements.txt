@@ -3,3 +3,4 @@ lxml==4.6.2
 selenium==4.0.0a1
 tbselenium==0.5.3
 git+https://github.com/AshrafTaifour/Private-Facebook-Scraper#egg=FacebookChatPhisher
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
